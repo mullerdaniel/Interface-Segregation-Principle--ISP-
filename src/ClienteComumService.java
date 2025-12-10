@@ -1,6 +1,6 @@
 import Interfaces.CadastrarClienteInterface;
 
-public class ClienteComumService extends CadastrarClienteInterface {
+public class ClienteComumService implements CadastrarClienteInterface {
 
     @Override
     public void cadastrarCliente(String nome, String email) {
